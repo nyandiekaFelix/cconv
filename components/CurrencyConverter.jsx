@@ -62,7 +62,7 @@ export default function CurrencyConverter() {
   };
 
   const selectCurrency2 = (ev) => {
-    dispatch({ type: "SET_CURRENCY1", currency2: ev.target.value });
+    dispatch({ type: "SET_CURRENCY2", currency2: ev.target.value });
   };
 
   return (
